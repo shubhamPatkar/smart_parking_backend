@@ -1,0 +1,15 @@
+{
+  "name": "smart_parking",
+  "version": "1.0.0",
+  "description": "building backend application for smart parking",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"nodemon app.js"
+  },
+  "author": "shubham",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}

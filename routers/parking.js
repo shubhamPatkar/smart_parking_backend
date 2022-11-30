@@ -45,7 +45,7 @@ router.get("/getParkingDetailsById",  bearer_token.verifyToken, async(req,res)=>
 
 router.put("/updateParkingDetails",  bearer_token.verifyToken, async(req,res)=>{
      try{
-            if(req.body?._id && req.body?.date && req.body?.seatNo && req.body?.status)
+            if(req.body?._id && req.body?.seatNo && req.body?.status)
             {
                 const parking = await Parking.findById(req.body._id);
                     parking.loginId = req.body.loginId,

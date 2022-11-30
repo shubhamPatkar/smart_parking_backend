@@ -7,7 +7,7 @@ const parking = new mongoose.Schema({
     },
     date:{
         type: String,
-        required:true
+        required:false
     },
     seatNo:{
         type:Number,
